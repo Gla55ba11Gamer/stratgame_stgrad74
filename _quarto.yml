@@ -1,0 +1,37 @@
+ipynb-filters: [nbdev_filter]
+
+project:
+  type: website
+  output-dir: _docs
+  preview:
+    port: 3000
+    browser: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+
+website:
+  title: "stratgame_stgrad74"
+  site-url: "https://Gla55ba11Gamer.github.io/stratgame_stgrad74"
+  description: "A simple python representation of Avalon Hill's classic board game Stalingrad 1974"
+  twitter-card: true
+  open-graph: true
+  repo-branch: master
+  repo-url: "https://github.com/Gla55ba11Gamer/stratgame_stgrad74"
+  repo-actions: [issue]
+  navbar:
+    background: primary
+    search: true
+    right:
+      - icon: github
+        href: "https://github.com/Gla55ba11Gamer/stratgame_stgrad74"
+  sidebar:
+    style: "floating"
+
+metadata-files: 
+  - sidebar.yml
+  - custom.yml
